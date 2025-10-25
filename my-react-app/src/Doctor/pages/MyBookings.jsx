@@ -56,12 +56,12 @@ export default function MyBookings() {
         <table className="w-full border-collapse border border-gray-300">
           <thead className="bg-gray-200">
             <tr>
-              <th className="border p-2">Booking ID</th>
+              <th className="border p-2">Appoinment ID</th>
               <th className="border p-2">Pet ID</th>
               <th className="border p-2">User ID</th>
               <th className="border p-2">Booking Number</th>
 
-              <th className="border p-2">Mobile No</th>
+              <th className="border p-2">Telephone No</th>
               <th className="border p-2">Status</th>
               <th className="border p-2">Created At</th>
               <th className="border p-2">Action</th>
@@ -70,11 +70,11 @@ export default function MyBookings() {
           <tbody className="text-center">
             {bookingData.map((booking) => (
               <tr key={booking._id}>
-                <td className="border p-2">{booking.bookingId}</td>
+                <td className="border p-2">{booking.appoinmentID}</td>
                 <td className="border p-2">{booking.petId}</td>
                 <td className="border p-2">{booking.userId}</td>
                 <td className="border p-2">{booking.bookingNumber}</td>
-                <td className="border p-2">{booking.mobileno}</td>
+                <td className="border p-2">{booking.telephoneNo}</td>
                 <td className="border p-2">{booking.status}</td>
 
                 <td className="border p-2">
