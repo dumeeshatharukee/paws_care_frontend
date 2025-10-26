@@ -5,22 +5,22 @@ export default function OnlineMeeting() {
     {
       id: 1,
       title: "Pet Care Follow-up Meeting",
-      date: "2025-07-15",
-      time: "10:00 AM",
+      date: "2025-10-25",
+      time: "10:30 AM",
       link: "https://meet.example.com/meeting1",
     },
     {
       id: 2,
       title: "New Patient Consultation",
-      date: "2025-07-18",
+      date: "2025-10-28",
       time: "02:30 PM",
       link: "https://meet.example.com/meeting2",
     },
     {
       id: 3,
       title: "Vaccination Discussion",
-      date: "2025-07-20",
-      time: "11:15 AM",
+      date: "2025-11-02",
+      time: "11:25 AM",
       link: "https://meet.example.com/meeting3",
     },
   ];
