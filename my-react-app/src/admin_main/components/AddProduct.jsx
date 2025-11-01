@@ -176,7 +176,7 @@ export default function AddProduct() {
                   </div>
 
                   <h1 className="text-center text-cyan-500">
-                    Just a moment — your image is being uploaded.
+                    Just a moment....! — your image is uploaded.
                   </h1>
                 </div>
               ) : (
