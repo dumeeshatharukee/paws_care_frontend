@@ -13,4 +13,6 @@ This feature ensures smooth system operation by allowing admins to **add, edit, 
 Secure user and admin authentication using **JSON Web Tokens (JWT)**.  
 This ensures that only authorized users can access protected routes and features, keeping data safe and confidential.
 
+### ✉️ Email Verification with OTP: Every user must verify their email using a One-Time Password sent to their inbox before the account becomes active, ensuring secure and valid user registration.
+
 
