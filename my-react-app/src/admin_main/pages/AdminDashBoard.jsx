@@ -65,7 +65,7 @@ export default function AdminDashBoard() {
         {`${firstName.charAt(0).toUpperCase() + firstName.slice(1)} ${
           lastName.charAt(0).toUpperCase() + lastName.slice(1)
         }`}
-        , your dashboard is ready! 🚀
+        , your dashboard is ready now! 🚀
       </motion.h1>
 
       {/* Summary Boxes */}
@@ -136,7 +136,7 @@ export default function AdminDashBoard() {
             <Line
               type="monotone"
               dataKey="bookings"
-              stroke="#8884d8"
+              stroke="#3329f6"
               strokeWidth={3}
             />
           </LineChart>
